@@ -14,6 +14,21 @@
     line-height: 1.6;
     color: #222;
     background: #f9f9f9;
+    position: relative;
+  }
+  .github-link {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.95rem;
+  }
+  .github-link a {
+    color: #0366d6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .github-link a:hover {
+    text-decoration: underline;
   }
   h1 {
     text-align: center;
@@ -44,16 +59,13 @@
     color: #666;
     margin-top: 4rem;
   }
-  a {
-    color: #0366d6;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
 </style>
 </head>
 <body>
+
+<div class="github-link">
+  <a href="https://github.com/git-automerge/automerge" target="_blank">View on GitHub ↗</a>
+</div>
 
 <h1>git-automerge</h1>
 
@@ -76,7 +88,7 @@
     <li>Automatically cleans up temporary branches and tags locally</li>
     <li>Supports custom tag prefixes or disables them via config</li>
     <li>Provides a convenient <code>git automerge init</code> command to generate example config</li>
-    <li>Easy installation via script</li>
+    <li>Easy installation via script or composer package</li>
   </ul>
 </section>
 
