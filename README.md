@@ -1,3 +1,3 @@
 # git-automerge.github.io
 
-https://git-automerge.github.io/automerge/
+https://git-automerge.github.io/
